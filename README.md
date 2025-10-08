@@ -48,3 +48,11 @@ Características principais:
 ## 🛠️ Tecnologias Utilizadas
 - HTML5 – marcação semântica e organização do conteúdo
 - CSS3 – estilização, espaçamento e estrutura visual responsiva
+
+## Contato
+Fique à vontade para entrar em contato para sugestões, dúvidas ou oportunidades:
+<p align="left">
+    <a href="https://www.linkedin.com/in/victor-cristo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    <a href = "mailto:victor.alencar.oliveira@outlook.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
+
+---
