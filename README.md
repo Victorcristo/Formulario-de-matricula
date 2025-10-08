@@ -40,6 +40,10 @@ Características principais:
 - Cores suaves e tipografia legível
 - Ícones e ilustrações educativas para reforçar o tema escolar
 - Responsividade básica para telas médias e grandes
+<img width="1909" height="745" alt="image" src="https://github.com/user-attachments/assets/c93026e7-34de-4ee4-ae9c-3bf9a758a982" />
+<img width="1895" height="583" alt="image" src="https://github.com/user-attachments/assets/4c348a5a-df5b-45c2-9778-8b3928593647" />
+<img width="1901" height="591" alt="image" src="https://github.com/user-attachments/assets/b4ff3138-dbc4-4e75-9092-c0ee3729bf96" />
+
 
 ## 🛠️ Tecnologias Utilizadas
 - HTML5 – marcação semântica e organização do conteúdo
