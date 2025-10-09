@@ -46,8 +46,8 @@ Características principais:
 
 
 ## 🛠️ Tecnologias Utilizadas
-- HTML5 – marcação semântica e organização do conteúdo
-- CSS3 – estilização, espaçamento e estrutura visual responsiva
+- HTML – marcação semântica e organização do conteúdo
+- CSS – estilização, espaçamento e estrutura visual responsiva
 
 ## Contato
 Fique à vontade para entrar em contato para sugestões, dúvidas ou oportunidades:
