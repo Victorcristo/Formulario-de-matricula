@@ -5,31 +5,64 @@
 
 button {
   all: unset;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-highlight);
-  padding: .75rem 1.5rem;
-  border-radius: .5rem;
+  padding: .75rem 2.25rem .75rem 2.25rem;
+  border-radius: .75rem;
   cursor: pointer;
+  box-shadow: 0 2px 12px 0 rgba(228, 58, 18, 0.10);
+  position: relative;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.1s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
 
   &.btn-primary {
-    color: white;
-    background-color: #E43A12;
+    color: #fff;
+    background: linear-gradient(90deg, #E43A12 60%, #F3541C 100%);
     margin-left: 1rem;
+    box-shadow: 0 4px 16px 0 rgba(228, 58, 18, 0.18);
 
     &:hover,
     &:focus {
-      background-color: #F3541C;
+      background: linear-gradient(90deg, #F3541C 60%, #E43A12 100%);
+      box-shadow: 0 6px 24px 0 rgba(243, 84, 28, 0.18);
+      transform: translateY(-2px) scale(1.03);
+    }
+    &:active {
+      background: #E43A12;
+      box-shadow: 0 2px 8px 0 rgba(228, 58, 18, 0.10);
+      transform: scale(0.98);
     }
   }
 
   &.btn-secondary {
     margin-left: auto;
-    border: 1px solid var(--text-highlight);
+    border: 2px solid var(--text-highlight);
+    background: #fff;
+    color: var(--text-highlight);
+    box-shadow: 0 2px 12px 0 rgba(228, 58, 18, 0.06);
 
     &:hover,
     &:focus {
-      color: #E43A12;
+      color: #fff;
+      background: var(--text-highlight);
       outline: .25rem solid var(--surface-secondary);
+      box-shadow: 0 6px 24px 0 rgba(243, 84, 28, 0.12);
+      transform: translateY(-2px) scale(1.03);
     }
+    &:active {
+      background: #F3541C;
+      color: #fff;
+      box-shadow: 0 2px 8px 0 rgba(228, 58, 18, 0.10);
+      transform: scale(0.98);
+    }
+  }
+
+  /* Ícone opcional à esquerda */
+  & .btn-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: inline-block;
   }
 }
